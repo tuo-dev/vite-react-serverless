@@ -1,0 +1,12 @@
+#main-layout {
+  .h0 {
+    font-size: 100px;
+    background: no-repeat center/cover url('assets/images/background.png');
+  }
+
+  .img-test {
+    width: 100px;
+    height: 100px;
+    background: no-repeat center/contain url('assets/images/background.png');
+  }
+}

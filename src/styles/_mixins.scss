@@ -1,0 +1,20 @@
+@mixin font-12($color: $black, $font-weight: 400, $line-height:1.5) {
+  font-size: 12px;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  color: $color;
+}
+
+@mixin font-18($color: $black, $font-weight: 600, $line-height:1.5) {
+  font-size: 18px;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  color: $color;
+}
+
+@mixin font-23($color: $black, $font-weight: 500, $line-height:1.5) {
+  font-size: 23px;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  color: $color;
+}
